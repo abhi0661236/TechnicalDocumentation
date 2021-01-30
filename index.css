@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#main-doc{
+    width: 100%;
+    height: 100vh;
+    /* margin: 0 auto; */
+    background-color: rgb(243, 142, 142);
+    display: flex;
+}
+@media only screen and (max-width: 768px){
+    #main-doc{
+        display: block;
+    }
+}
+
+
+#navbar{
+    background-color: rgb(238, 235, 235);
+    width: 30%;
+    border-right: 5px solid black;
+}
+#navbar .up{
+    background-color: rgb(201, 194, 194);
+    width: 100%;
+    height: 12vh;
+}
+#navbar .up h1{
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: bolder;
+    margin-top: 5%;
+}
+#navbar .down{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 88vh;
+    text-align: center;
+}
+#navbar .down p{
+    margin: 10px auto;
+    
+}
+.nav-link{
+    padding: 10px auto;
+}
+#main-doc div{
+    background-color: rgb(226, 222, 222);
+    width: 70%;
+    overflow: auto;
+}
